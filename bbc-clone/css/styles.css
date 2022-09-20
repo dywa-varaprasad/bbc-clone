@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins",sans-serif;
+ /* background-color: black; */
+}
+
+nav .left{
+    /* margin-right: 25px; */
+    /* border: 2px solid red; */
+    padding: 0;
+    width: 20%;
+margin: 0;
+/* margin-top: 2px; */
+}
+nav * {
+float: left;
+margin: 0 19px;
+margin-top: 10px;
+list-style: none;
+}
+
+
+li{
+
+    border-left:1px solid gainsboro;
+    padding: 0 4px;
+    font-size: 16px;
+    /* letter-spacing: 1px; */
+    /* border: 2px solid red; */
+}
+
+header,main{
+    width: 100vw;
+    height: 60px;
+    /* border: 2px solid white; */
+background-color: black;
+color: white;
+border-radius: 0px;
+}
+
+
+main{
+height:50vh;
+}
+
+
+
+main>h2, main span{
+    background-color: aliceblue;
+    color: black;
+    height: 7vh;
+font-size: 30px;
+font-weight: 700;
+    margin-top: 10px;
+}
+
+main span{
+    float: right;
+    opacity: 0.7;
+    font-size: 16px;
+
+margin-right: 10px;}
+
+main > section{
+
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    /* margin: 1px; */
+    /* padding: 0 5px; */
+
+    /* padding: 2px; */
+    /* border: 3px solid green; */
+}
+
+
+.four-box>section{
+    height: 50%;
+    width: 50%;
+    float: left;
+    /* padding: 10px; */
+    /* margin: 1px; */
+    /* border: 2px solid red; */
+
+}
+
+.hero h1{
+margin-top: 250px;
+margin-left: 15px;
+font-size: 32px;
+}
+
+.hero p{
+    margin: 5px 0;
+margin-left: 15px;
+
+}
+
+small{
+    border-left: 4px solid red;
+    margin-left: 10px;
+padding-left: 5px;
+}
+
+
+.four-box section h2{
+    margin-top: 100px;
+margin-left: 10px;
+font-size: 19px;}
+
+.four-box small{
+    margin-left: 5px;
+    border-color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+.bottom{
+    /* border: 2px solid yellow; */
+height: 60vh;
+width: 100%;
+}
+
+.bottom section {
+    width: 33.33333%;
+    margin-top: 25px;
+    padding: 0 5px;
+    /* border: 2px solid blueviolet; */
+    height: 100%;
+    float: left;
+}
+
+
+.bottom h3{
+    font-size: 22px;
+
+}
+
+.bottom p{
+    font-size: 15px;
+margin-top: 5px;
+}
+
+
+/*  to scall image to fill 100% width of the section */
+.bottom img{
+    width: 100%;
+}
+
+
+footer{
+    margin-top: 10px;
+clear: both;
+    border: 3px solid red;
+    width: 100%;
+    height: 20vh;
+background-color: rgba(0, 0, 0, 0.775);
+}
+
+
+
+footer> section{
+    height: 100%;
+    width: 25%;
+    float: left;
+/* border: 2px solid red; */
+}
+
+footer h5{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+
+    /* border-bottom: 1px solid red; */
+    /* display: inline-block; */
+}
+
+
+
+
+footer small{
+    border: none;
+margin-left: 40%;
+    font-size: 13px;
+
+}
+
+footer ul li{
+    list-style-type: none;
+    text-align: center;
+/* line-height: 1px; */
+}
+
+
+/* ----------------------------------------- */
+/*  images */
+/* --------------------------------------- */
+
+main>.hero{
+    background-image: url(/main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: 0x 0px; */
+}
+.four-box>.one{
+    background-image: url(/Tension_at_Canada_US_border.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.four-box>.two{
+    background: no-repeat url(/musician.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.four-box>.four{
+    background: no-repeat url(/vaccinate_seven_billion_people.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.four-box>.three{
+    background: no-repeat url(/1644414169417.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/* .bottom .bottom-one{
+    background: no-repeat url(/1644414169413.png);
+    background-size: cover;
+}
+
+
+.bottom .bottom-two{
+    background: no-repeat url(/strike.png);
+    background-size: cover;
+}
+.bottom .bottom-three{
+    background: no-repeat url(/trump.png);
+    background-size: cover;
+} */
+
+
+/* ===============completed images=========================== */
+
+/* 
+------------------------------------------------------------------------------------------------------------------------------------------
+@media screen and (min-width: 400px){
+ header nav*{
+    display: none;
+ }
+
+main >section{
+    width: 50%;
+}
+
+footer,header{
+    font-size: 2rem;
+    background-color: rgb(206, 38, 38);
+}
+.bigboy{display:none;
+}
+
+.at-600{
+    display: none;
+}
+
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+@media (min-width: 401) and (max-width: 799px){
+    section{
+        background-color: rgb(48, 5, 12);
+   
+   font-size: 3rem;
+ }
+
+    .at-600{
+        display: initial;
+    }
+    
+    aside{
+        background-color: rgb(43, 43, 14);
+font-size: 3rem;    
+/* width: 33.33333%; 
+}
+    
+footer,header{
+    background-color: rgb(168, 154, 154);
+}
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+ @media (min-width:800px) and (max-width: 1600px){
+    section{
+        background-color: rgb(121, 43, 245);
+    }
+    
+    aside{
+        background-color: rgb(85, 224, 115);
+    }
+    
+    footer,header{
+        background-color: rgba(231, 20, 143, 0.788);
+    }
+
+    .at-600{
+        font-size: 5rem;
+    }
+    }
+    
+-----------------------------------------------------------------------------------------------------------------------------------------
+*/ 
